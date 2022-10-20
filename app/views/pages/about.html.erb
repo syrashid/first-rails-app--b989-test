@@ -1,7 +1,7 @@
 <p>Now is <%= Time.now %></p>
 
 <form action="/about" method="get">
-  <input type="text" name="member" placeholder="Who are you looking for?">
+  <input type="text" name="member" placeholder="Who are you looking for?" value="<%= params[:member] %>">
   <input type="submit">
 </form>
 

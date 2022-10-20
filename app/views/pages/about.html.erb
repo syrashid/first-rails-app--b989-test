@@ -1,5 +1,14 @@
 <p>Now is <%= Time.now %></p>
 
+<% members = [ 'thanh', 'dimitri', 'germain', 'damien', 'julien' ] %>
+
+<h2>Meet our team</h2>
+<ol>
+  <% members.each do |member| %>
+    <li><%= member.capitalize %></li>
+  <% end %>
+</ol>
+
 <h1>Our kick ass About page 🚀</h1>
 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aut, labore omnis, incidunt odio aliquam tempora recusandae fuga quisquam nemo magni eligendi vero nobis inventore a hic nam voluptates delectus!
 Fugit modi dolorum, iste doloremque rem error sapiente eaque voluptatem consequuntur minus officiis harum maiores doloribus corrupti repellendus amet ut blanditiis, hic, tempora id. Qui iusto excepturi mollitia iste minus.
